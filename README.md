@@ -19,6 +19,7 @@ Bạn có thể tự chạy bot theo các bước sau:
 
 ```bash
 git clone https://github.com/iamprmgvyt/counting-bot.git
+
 cd counting-bot
 
 Hoặc giải nén thư mục bạn tải.
@@ -56,7 +57,7 @@ Bot không có cơ sở dữ liệu hay bảng xếp hạng.
 
 .
 ├── index.js                #File chính duy nhất
-├── package.json        #Danhsách thư viện
+├── package.json            #Danhsách thư viện
 ├── .env                    #Token bot (do bạn tạo)
 └── README.md
 
@@ -75,7 +76,7 @@ Mã nguồn mở theo giấy phép MIT License.
 
 > 🧠 Tham gia server hỗ trợ tại: https://discord.gg/ra4JkDk42C
 
-
+English:
 # 🧮 Counting Bot for Discord
 
 A simple counting bot for Discord! Members take turns counting in a dedicated channel. If someone counts incorrectly or repeats, the bot will automatically delete the invalid message and allow the count to continue.
