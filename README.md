@@ -76,3 +76,80 @@ Mã nguồn mở theo giấy phép MIT License.
 > 🧠 Tham gia server hỗ trợ tại: https://discord.gg/ra4JkDk42C
 
 
+# 🧮 Counting Bot for Discord
+
+A simple counting bot for Discord! Members take turns counting in a dedicated channel. If someone counts incorrectly or repeats, the bot will automatically delete the invalid message and allow the count to continue.
+
+## 🚀 Features
+
+- ✅ Count in the correct order without skipping  
+- ❌ Automatically deletes incorrect numbers  
+- 🔁 Continues counting after a mistake (does not reset to 1)  
+- 🔒 Prevents the same user from counting twice in a row (if enabled)  
+- 🔕 No leaderboard currently  
+- 📦 Entire bot is in a single file (`index.js`)
+
+## 🛠️ Installation
+
+You can self-host the bot by following these steps:
+
+### 1. Download the source
+
+```bash
+git clone https://github.com/iamprmgvyt/counting-bot.git
+cd counting-bot
+
+Or simply extract the folder if you've downloaded the ZIP.
+
+2. Install dependencies
+
+npm install
+
+3. Create a .env file
+
+Create a .env file and add your bot token:
+
+TOKEN=your_bot_token
+
+> No need to define a PREFIX here, it's already set inside index.js.
+
+
+
+4. Run the bot
+
+node index.js
+
+⚙️ Usage
+
+Type !help (or your custom prefix in index.js) to view available commands.
+
+Count numbers in order in a dedicated channel.
+
+Wrong numbers or repeated users will have their messages deleted.
+
+No database or leaderboard is used.
+
+
+📁 Project Structure
+
+.
+├── index.js            # Main and only bot file
+├── package.json        # Dependency list
+├── .env                # Token file (you create this)
+└── README.md
+
+💡 Example
+
+User A: 1  
+User B: 2  
+User B: 3 ❌ (invalid – deleted due to repeat)  
+User C: 3 ✅
+
+📜 License
+
+Open-source under the MIT License.
+
+💬 Support
+
+> 🧠 Join our support server: https://discord.gg/ra4JkDk42C
+NOTE:THIS IS VIETNAMESE VERSION,I WILL CREATE ENGLISH VERSION SOON!
